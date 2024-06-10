@@ -11,4 +11,3 @@ for stadium, coords in stadiums_location.items():
 
 m.save("1.html")
 
-# its first project
