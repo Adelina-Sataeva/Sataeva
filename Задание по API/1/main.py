@@ -10,3 +10,5 @@ for stadium, coords in stadiums_location.items():
     folium.Marker(location=[lon, lat], popup=stadium).add_to(m)
 
 m.save("1.html")
+
+# its first project
