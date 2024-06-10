@@ -9,10 +9,7 @@ def test_is_palindrome():
             print("YES")
         else:
             print("NO")
-
-
 test_is_palindrome()
-
 def check_palindrome():
     input_str = input("Введите строку: ")
     if is_palindrome(input_str):
