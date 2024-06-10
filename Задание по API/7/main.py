@@ -1,7 +1,5 @@
 import requests
 import sys
-
-
 def get_district(address):
     api_key = 'c7977893-1e2f-4958-afd2-0d9f5b5305e7'
     try:
@@ -13,8 +11,6 @@ def get_district(address):
             return 'Ошибка при запросе к геокодеру'
     except Exception as e:
         return f'Произошла ошибка: {str(e)}'
-
-
 if __name__ == '__main__':
     if len(sys.argv) < 2:
         print('введите адрес в командной строке:')
